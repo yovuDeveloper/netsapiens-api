@@ -1,6 +1,5 @@
 # YOVU Office Phones - Netsapiens API - Delete Netsapiens Shared Contact
 # Developed by YOVU Development Team
-# Author : Vishnu Anilkumar 22/09/2020
 
 import csv
 import requests

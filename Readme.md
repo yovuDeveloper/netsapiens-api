@@ -25,6 +25,7 @@ Logs can be found in : ```NSLog.log```
 
 *__Technical Details__:
 There is a 5 second delay after every 25th delete request in case you are deleting a lot of request. But it is recommended to batchify the code if required.* 
+>Looking forward to your feedback and will add more scripts depending on requests and resources
 
 
 
