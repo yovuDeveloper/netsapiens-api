@@ -1,4 +1,5 @@
 # Scripts using Netsapiens API
+Developed by [YOVU Office Phone](yovu.ca)
 ## 1. Delete all Shared Contacts
 ```source/delete-shared-contact/DeleteSharedContact.py```
 
