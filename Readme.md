@@ -28,7 +28,7 @@ Logs can be found in : ```NSLog.log```
 ```Fail.csv``` will hold the list of shared contacts that were not deleted.
 ### GUI Version
 
-We have included a GUI version of the same script. ```DeleteShareContactUI.py```
+We have included a GUI version of the same script. ```source/delete-shared-contact/DeleteShareContactUI.py```
 You can modify the GUI version to meet your purpose. 
 ![GUIImages](./source/YOVUDeleteSharedContact.png)
 
