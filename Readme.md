@@ -3,6 +3,8 @@
 ```source/delete-shared-contact/DeleteSharedContact.py```
 
 
+[Netsapiens API Documentation - Delete a Contact](https://api.netsapiens.com/ns-api/webroot/apidoc/#api-Contact-Delete)
+
 You can delete all shared contacts using this script. You may repurpose the script to loop through your own list of contact ids and delete them from the server.
 
 >__Warning__: 
@@ -16,11 +18,32 @@ You must add your credentails in ```Settings.ini``` for the script to work.These
 1. User Name : Your login username for the server.
 1. Password :  Your password you use to login.
 
+If you like you can also hardcode the credentials within the py script and run the script.
+
 __After Execution of the script:__ 
 
 Logs can be found in : ```NSLog.log```  
 ```Success.csv``` will hold the list of shared contacts that were successfully deleted.  
 ```Fail.csv``` will hold the list of shared contacts that were not deleted.
+### GUI Version
+
+We have included a GUI version of the same script. ```DeleteShareContactUI.py```
+You can modify the GUI version to meet your purpose. 
+![GUIImages](./source/YOVUDeleteSharedContact.png)
+
+## 2. Read All Device/Subscriber within a Domain
+```source/read-all-devices-domain/ReadAllDevices.py```
+
+
+[Netsapiens API Documentation - Devices Read](https://api.netsapiens.com/ns-api/webroot/apidoc/#api-Device-Read)
+1. You can use this script to fetch all devices within a domain. I have added only eight fields for download. You can alter the ```class Device``` to add more as per your need.
+1. You can edit line ```108 : read_all_devices('domainName')``` to run the script for different domain.
+1. You need to have atleast *Reseller* permission to read all devices within the domain. Please refer netsapiens documentation for fields,parameters and response.
+
+
+After successfully running the script:
+```ListOfSubscribers.csv``` will hold the details of all the devices within that domain.
+
 
 
 *__Technical Details__:
